@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+}
+.banner{
+    background: url("./background.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+}
+.banner h1,
+.banner p{
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    overflow: hidden;
+}
+.banner h1{
+    font-size: 5rem;
+    line-height: 70px;
+   
+}
+.banner p{
+    font-size: 3rem;
+    top: 30.5%;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+nav ul{
+    display: flex;
+    gap:100px;
+    padding: 0 100px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: 3s;
+}
+nav ul li:hover{
+    transform: translateY(-5px);
+    scale: 1.1;
+}
+.pictures{
+    height: calc(100vh - 120px);
+    width: 100%;
+    padding: 20px 10px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9{
+    height: 250px;
+    width: 200;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+.img1{
+    position: absolute;
+    top: 115%;
+    left: 5%;
+}
+.img2{
+    position: absolute;
+    top: 125%;
+    left: 28%;
+}
+.img3{
+    position: absolute;
+    top: 150%;
+    left: 8%;
+}
+.img4{
+    position: absolute;
+    top: 115%;
+    left: 54%;
+}
+.img5{
+    position: absolute;
+    top: 130%;
+    left: 70%;
+}
+.img6{
+    position: absolute;
+    top: 158%;
+    left: 35%;
+}
+.img7{
+    position: absolute;
+    top: 150%;
+    left: 60%;
+}
+.img8{
+    position: absolute;
+    top: 148%;
+    left: 80%;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover,.img7:hover,.img8:hover{
+    scale: 1.2;
+    padding: 20px 0;
+    background-position: center;
+    background-size: cover;
+    z-index: 99;
+}
+
+/* First anime page */
+.container{
+    display: grid;
+    height: 100%;
+    width: 93vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 507px 507px 410px;
+    gap: 10px;
+    padding: 50px;
+}
+.card1 img{
+    height: 98%;
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    background: white;
+    padding: 0 50px;
+    font-size: 1.5rem;
+}
+.card2 h1{
+    font-size: 4rem;
+    line-height: 65px;
+    overflow-y: hidden;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.card2 h2{
+    font-weight: 300;
+}
+.card3{
+    margin-top: 20px;
+    grid-column: span 2;
+    overflow: hidden;
+}
+.card3 h2{
+    font-size: 1.8rem;
+}
+.card3 span{
+    font-weight: 300;
+}
+.card4{
+    height: 400px;
+    width: 700px;
+}
+.card4 h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.card4 a{
+    text-decoration: none;
+    color: black;
+}
+.card5{
+    position: relative;
+    height: 400px;
+}
